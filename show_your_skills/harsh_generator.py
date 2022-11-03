@@ -1,8 +1,8 @@
 import csv
 import hashlib
 
-IN_PATH = r"C:\HNG\show_your_skills\HNGi9 CSV FILE - Sheet1.csv"
-OUT_PATH = r"C:\HNG\show_your_skills\filename.output.csv"
+IN_PATH = "HNGi9 CSV FILE - Sheet1.csv"
+OUT_PATH = "filename.output.csv"
 ENCODING = "ascii"
 HASH_COLUMNS = dict(Hash="sha256")
 
